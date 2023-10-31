@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Kode Captcha</title>
+</head>
+<body>
+    <div class="container">
+        <header>Captcha Generator</header>
+        <div class="input_field captch_box">
+            <input type="text" value="" disabled>
+            <button class="refresh_button">
+                <i class="fa-solid fa-rotate-right"></i>
+            </button>
+        </div>
+        <div class="input_field captch_input">
+            <input type="text" placeholder="Masukkan Kode Captcha...">
+        </div>
+        <div class="message">Kode yang anda masukkan benar</div>
+        <div class="input_field button disabled">
+            <button>Submit Captcha</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
